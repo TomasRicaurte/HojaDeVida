@@ -1,4 +1,84 @@
 .contenedor {
     display: grid;
-    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-style: italic;
+    font-size: large;
+    column-gap: 10px;
+    row-gap: 25px;
+    padding: 15px;
+
+}
+
+.titulo {
+    grid-column: 1 / 9;
+    justify-content: center;
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+.foto {
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+.Informacion {
+    grid-column: 1/ 3;
+    align-content: space-around;
+    line-height: 2;
+}
+
+.Experiencia {
+    grid-column: 3 / 9;
+    grid-row: 2 / 4;
+    line-height: 1.2;
+}
+
+.Habilidades {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3 / 9;
+}
+
+.TablaContenido {
+    grid-column: 3 / 9;
+    border: solid black;
+    line-height: 1.5;
+}
+
+.Intereses {
+    grid-column: 3 / 9;
+    text-align: center;
+}
+
+.TablaIntereses {
+    grid-column: 3 / 9;
+    border: solid black;
+    line-height: 1.5;
+}
+
+.E-mail {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    text-align: center;
+    font-size: x-large;
+}
+
+.Email {
+    grid-column: 1 / 3;
+    grid-row: 5 / 5;
+    text-align: center;
+    border: solid black 2px;
+}
+
+.mensaje {
+    grid-column: 1 / 3;
+    grid-row: 6 / 8;
+    text-align: center;
+    border: solid black 2px;
+}
+
+.boton {
+    grid-column: 1 / 3;
+    text-align: center;
 }
